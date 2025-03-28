@@ -14,3 +14,6 @@
     ansible.builtin.service:
       name: nginx
       state: stopped
+  - name: enable the nginx
+    name: nginx
+    enabled: yes
